@@ -1,0 +1,22 @@
+{
+  "name": "meanlogin",
+  "version": "1.0.0",
+  "description": "Mean Login function",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "5.11.15",
+    "bcrypt": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Hozefa Tankiwala",
+  "license": "ISC"
+}
